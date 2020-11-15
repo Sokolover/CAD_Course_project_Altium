@@ -2,7 +2,7 @@
 *.PrjPCBStructure
 *.SchDocPreview
 *.PcbDocPreview
-__Previews
+AltiumProject/__Previews/*
 *.PrjPcbStructure
 *.Dat
 *.REP 
@@ -13,12 +13,11 @@ __Previews
 *.$$$
 
 #useless dirs
-Project\ Outputs
-Project\ Logs
-Project Outputs for*
+AltiumProject/Outputs
+AltiumProject/Logs
 
 #History
-History
+AltiumProject/History
 
 #Exports, but not manual ones
 exports/*
