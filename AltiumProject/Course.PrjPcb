@@ -259,26 +259,22 @@ GenerateClassCluster=0
 DocumentUniqueId=USSVSIWD
 
 [GeneratedDocument1]
-DocumentPath=Документация\PCB_all_try_6_sborochnyi.PcbDoc.pdf
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Документация\PCB_assembly_drawing_try2.PcbDoc.pdf
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Course\PCB_with_drawing_try2.BOM
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Course\PCB_with_drawing_try2.CSV
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Документация\ГУИР.758717.001.pdf
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Документация\Перечень элементов.pdf
 DItemRevisionGUID=
 
