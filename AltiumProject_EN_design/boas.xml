@@ -31,14 +31,14 @@
   </DocsParams>
   <Positions>
     <Position id="3">
-      <Value>RX_D0-</Value>
-      <Value>RX_CLK-</Value>
-      <Value>RX_D1+</Value>
-      <Value>RX_CLK+</Value>
-      <Value>RX_D1-</Value>
-      <Value>RX_D0+</Value>
-      <Value>RX_D2-</Value>
-      <Value>RX_D2+</Value>
+      <Value>RX_D2</Value>
+      <Value>RX_CLK-1</Value>
+      <Value>RX_D3</Value>
+      <Value>RX_CLK+1</Value>
+      <Value>RX_D4</Value>
+      <Value>RX_D1</Value>
+      <Value>RX_D6</Value>
+      <Value>RX_D5</Value>
     </Position>
     <Position id="5">
       <Value>C1</Value>
@@ -46,14 +46,14 @@
       <Value>C3</Value>
       <Value>C4</Value>
       <Value>C5</Value>
-      <Value>C7</Value>
+      <Value>C6</Value>
       <Value>C8</Value>
       <Value>C9</Value>
       <Value>C10</Value>
       <Value>C11</Value>
       <Value>C12</Value>
       <Value>C13</Value>
-      <Value>C15</Value>
+      <Value>C14</Value>
       <Value>C16</Value>
       <Value>C17</Value>
       <Value>C18</Value>
@@ -73,7 +73,7 @@
       <Value>C32</Value>
       <Value>C33</Value>
       <Value>C34</Value>
-      <Value>C36</Value>
+      <Value>C35</Value>
       <Value>C37</Value>
       <Value>C38</Value>
       <Value>C39</Value>
@@ -86,22 +86,19 @@
       <Value>C50</Value>
       <Value>C51</Value>
       <Value>C52</Value>
-      <Value>C54</Value>
+      <Value>C53</Value>
       <Value>C55</Value>
       <Value>C56</Value>
       <Value>C57</Value>
+      <Value>C58</Value>
       <Value>C59</Value>
       <Value>C60</Value>
       <Value>C61</Value>
       <Value>C62</Value>
-      <Value>C63</Value>
       <Value>C64</Value>
-      <Value>C66</Value>
+      <Value>C65</Value>
       <Value>C67</Value>
       <Value>C68</Value>
-      <Value>C69</Value>
-      <Value>C70</Value>
-      <Value>C71</Value>
       <Value>C72</Value>
       <Value>C73</Value>
       <Value>C74</Value>
@@ -125,7 +122,6 @@
       <Value>C92</Value>
       <Value>C93</Value>
       <Value>C94</Value>
-      <Value>C95</Value>
       <Value>C96</Value>
       <Value>C97</Value>
       <Value>C98</Value>
@@ -165,6 +161,10 @@
       <Value>C132</Value>
       <Value>C133</Value>
       <Value>C134</Value>
+      <Value>C135</Value>
+      <Value>C136</Value>
+      <Value>C137</Value>
+      <Value>C138</Value>
       <Value>C139</Value>
       <Value>C140</Value>
       <Value>C141</Value>
@@ -186,56 +186,80 @@
       <Value>C157</Value>
       <Value>C158</Value>
       <Value>C159</Value>
-      <Value>C160</Value>
       <Value>C161</Value>
       <Value>C162</Value>
       <Value>C163</Value>
-      <Value>C165</Value>
+      <Value>C164</Value>
       <Value>C166</Value>
-      <Value>C167</Value>
-      <Value>C168</Value>
-      <Value>C169</Value>
       <Value>C170</Value>
       <Value>C171</Value>
       <Value>C172</Value>
+      <Value>C173</Value>
+      <Value>C174</Value>
+      <Value>C175</Value>
+      <Value>C176</Value>
+      <Value>C177</Value>
+      <Value>C178</Value>
+      <Value>C179</Value>
+      <Value>C180</Value>
+      <Value>C181</Value>
+      <Value>C182</Value>
+      <Value>C183</Value>
+      <Value>C184</Value>
+      <Value>C185</Value>
+      <Value>C186</Value>
+      <Value>C187</Value>
+      <Value>C188</Value>
+      <Value>C189</Value>
+      <Value>C190</Value>
+      <Value>C191</Value>
+      <Value>C192</Value>
+      <Value>C193</Value>
+      <Value>C194</Value>
+      <Value>C195</Value>
+      <Value>C196</Value>
     </Position>
     <Position id="7">
-      <Value>C6</Value>
-      <Value>C14</Value>
-      <Value>C35</Value>
+      <Value>C7</Value>
+      <Value>C15</Value>
+      <Value>C36</Value>
       <Value>C41</Value>
       <Value>C42</Value>
       <Value>C43</Value>
       <Value>C44</Value>
-      <Value>C53</Value>
-      <Value>C58</Value>
-      <Value>C65</Value>
-      <Value>C135</Value>
-      <Value>C136</Value>
-      <Value>C137</Value>
-      <Value>C138</Value>
-      <Value>C164</Value>
+      <Value>C54</Value>
+      <Value>C63</Value>
+      <Value>C66</Value>
+      <Value>C69</Value>
+      <Value>C70</Value>
+      <Value>C71</Value>
+      <Value>C95</Value>
+      <Value>C160</Value>
+      <Value>C165</Value>
+      <Value>C167</Value>
+      <Value>C168</Value>
+      <Value>C169</Value>
     </Position>
     <Position id="9">
-      <Value>DD5</Value>
+      <Value>DD6</Value>
     </Position>
     <Position id="11">
       <Value>DD3</Value>
     </Position>
     <Position id="13">
-      <Value>DD7</Value>
+      <Value>DD10</Value>
     </Position>
     <Position id="15">
       <Value>DD16</Value>
     </Position>
     <Position id="17">
-      <Value>DD9</Value>
+      <Value>DD5</Value>
     </Position>
     <Position id="19">
-      <Value>DD14</Value>
+      <Value>DD12</Value>
     </Position>
     <Position id="21">
-      <Value>DD10</Value>
+      <Value>DD9</Value>
     </Position>
     <Position id="23">
       <Value>DD2</Value>
@@ -248,20 +272,20 @@
       <Value>DD4</Value>
     </Position>
     <Position id="29">
-      <Value>DD11</Value>
+      <Value>DD7</Value>
     </Position>
     <Position id="31">
-      <Value>DD8</Value>
+      <Value>DD11</Value>
     </Position>
     <Position id="33">
-      <Value>DD6</Value>
+      <Value>DD8</Value>
     </Position>
     <Position id="35">
-      <Value>DD15</Value>
+      <Value>DD13</Value>
     </Position>
     <Position id="37">
-      <Value>DD12</Value>
-      <Value>DD13</Value>
+      <Value>DD14</Value>
+      <Value>DD15</Value>
     </Position>
     <Position id="39">
       <Value>L1</Value>
@@ -288,6 +312,9 @@
       <Value>L22</Value>
       <Value>L23</Value>
       <Value>L24</Value>
+      <Value>L25</Value>
+      <Value>L26</Value>
+      <Value>L27</Value>
     </Position>
     <Position id="41">
       <Value>R1</Value>
@@ -554,12 +581,12 @@
       <Value>VD14</Value>
     </Position>
     <Position id="49">
-      <Value>VT2</Value>
+      <Value>VT3</Value>
       <Value>VT4</Value>
     </Position>
     <Position id="51">
       <Value>VT1</Value>
-      <Value>VT3</Value>
+      <Value>VT2</Value>
     </Position>
     <Position id="53">
       <Value>X2</Value>
@@ -573,63 +600,51 @@
   </Positions>
   <materials />
   <pelines>
-    <peline num="" oboz="" name="" comment="" underline="False" type="ElementGroup" />
-    <peline num="1" oboz="RX_D0-" name="InputArrow" comment="" underline="False" type="None" />
-    <peline num="1" oboz="RX_CLK-" name="InputArrow" comment="" underline="False" type="None" />
-    <peline num="1" oboz="RX_D1+" name="InputArrow" comment="" underline="False" type="None" />
-    <peline num="1" oboz="RX_CLK+" name="InputArrow" comment="" underline="False" type="None" />
-    <peline num="1" oboz="RX_D1-" name="InputArrow" comment="" underline="False" type="None" />
-    <peline num="1" oboz="RX_D0+" name="InputArrow" comment="" underline="False" type="None" />
-    <peline num="" oboz="" name="" comment="" underline="False" type="None" />
-    <peline num="1" oboz="C1" name="Конденсатор Capacitor" comment="" underline="False" type="None" />
-    <peline num="1" oboz="RX_D2-" name="InputArrow" comment="" underline="False" type="None" />
-    <peline num="" oboz="" name="" comment="" underline="False" type="None" />
     <peline num="" oboz="" name="Конденсаторы" comment="" underline="False" type="ElementGroup" />
-    <peline num="4" oboz="C2-C5" name="Capacitor" comment="" underline="False" type="None" />
-    <peline num="1" oboz="C6" name="TuningCapacitor" comment="" underline="False" type="None" />
-    <peline num="1" oboz="C7" name="Capacitor" comment="" underline="False" type="None" />
-    <peline num="1" oboz="RX_D2+" name="InputArrow" comment="" underline="False" type="None" />
-    <peline num="" oboz="" name="" comment="" underline="False" type="None" />
-    <peline num="" oboz="" name="Конденсаторы" comment="" underline="False" type="ElementGroup" />
-    <peline num="6" oboz="C8-C13" name="Capacitor" comment="" underline="False" type="None" />
-    <peline num="1" oboz="C14" name="TuningCapacitor" comment="" underline="False" type="None" />
-    <peline num="20" oboz="C15-C34" name="Capacitor" comment="" underline="False" type="None" />
-    <peline num="1" oboz="C35" name="TuningCapacitor" comment="" underline="False" type="None" />
-    <peline num="5" oboz="C36-C40" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="6" oboz="C1-C6" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="1" oboz="C7" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="7" oboz="C8-C14" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="1" oboz="C15" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="20" oboz="C16-C35" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="1" oboz="C36" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="4" oboz="C37-C40" name="Capacitor" comment="" underline="False" type="None" />
     <peline num="4" oboz="C41-C44" name="TuningCapacitor" comment="" underline="False" type="None" />
-    <peline num="8" oboz="C45-C52" name="Capacitor" comment="" underline="False" type="None" />
-    <peline num="1" oboz="C53" name="TuningCapacitor" comment="" underline="False" type="None" />
-    <peline num="" oboz="" name="Конденсаторы" comment="" underline="False" type="ElementGroup" />
-    <peline num="4" oboz="C54-C57" name="Capacitor" comment="" underline="False" type="None" />
-    <peline num="1" oboz="C58" name="TuningCapacitor" comment="" underline="False" type="None" />
-    <peline num="6" oboz="C59-C64" name="Capacitor" comment="" underline="False" type="None" />
-    <peline num="1" oboz="C65" name="TuningCapacitor" comment="" underline="False" type="None" />
-    <peline num="69" oboz="C66-C134" name="Capacitor" comment="" underline="False" type="None" />
-    <peline num="4" oboz="C135-C138" name="TuningCapacitor" comment="" underline="False" type="None" />
-    <peline num="25" oboz="C139-C163" name="Capacitor" comment="" underline="False" type="None" />
-    <peline num="1" oboz="C164" name="TuningCapacitor" comment="" underline="False" type="None" />
-    <peline num="8" oboz="C165-C172" name="Capacitor" comment="" underline="False" type="None" />
-    <peline num="" oboz="" name="" comment="" underline="False" type="None" />
+    <peline num="9" oboz="C45-C53" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="1" oboz="C54" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="8" oboz="C55-C62" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="1" oboz="C63" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="2" oboz="C64, C65" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="1" oboz="C66" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="2" oboz="C67, C68" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="3" oboz="C69-C71" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="23" oboz="C72-C94" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="1" oboz="C95" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="64" oboz="C96-C159" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="1" oboz="C160" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="4" oboz="C161-C164" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="1" oboz="C165" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="1" oboz="C166" name="Capacitor" comment="" underline="False" type="None" />
+    <peline num="3" oboz="C167-C169" name="TuningCapacitor" comment="" underline="False" type="None" />
+    <peline num="27" oboz="C170-C196" name="Capacitor" comment="" underline="False" type="None" />
     <peline num="" oboz="" name="Микросхемы" comment="" underline="False" type="ElementGroup" />
     <peline num="1" oboz="DA1" name="AD9883ABSTZ-140" comment="" underline="False" type="None" />
     <peline num="1" oboz="DD1" name="AIC1732" comment="" underline="False" type="None" />
     <peline num="1" oboz="DD2" name="74LVX14" comment="" underline="False" type="None" />
     <peline num="1" oboz="DD3" name="24C21" comment="" underline="False" type="None" />
     <peline num="1" oboz="DD4" name="AIC1732" comment="" underline="False" type="None" />
-    <peline num="1" oboz="DD5" name="24C02" comment="" underline="False" type="None" />
-    <peline num="1" oboz="DD6" name="SIL151" comment="" underline="False" type="None" />
-    <peline num="1" oboz="DD7" name="24LC08" comment="" underline="False" type="None" />
-    <peline num="1" oboz="DD8" name="SD1210" comment="" underline="False" type="None" />
-    <peline num="1" oboz="DD9" name="74AHC1G14-TA" comment="" underline="False" type="None" />
-    <peline num="1" oboz="DD10" name="74LV4053" comment="" underline="False" type="None" />
-    <peline num="1" oboz="DD11" name="AV9173-01" comment="" underline="False" type="None" />
-    <peline num="2" oboz="DD12, DD13" name="SN75LVDS83" comment="" underline="False" type="None" />
-    <peline num="1" oboz="DD14" name="74LCX125" comment="" underline="False" type="None" />
-    <peline num="1" oboz="DD15" name="SM0230" comment="" underline="False" type="None" />
+    <peline num="1" oboz="DD5" name="74AHC1G14-TA" comment="" underline="False" type="None" />
+    <peline num="1" oboz="DD6" name="24C02" comment="" underline="False" type="None" />
+    <peline num="1" oboz="DD7" name="AV9173-01" comment="" underline="False" type="None" />
+    <peline num="1" oboz="DD8" name="SIL151" comment="" underline="False" type="None" />
+    <peline num="1" oboz="DD9" name="74LV4053" comment="" underline="False" type="None" />
+    <peline num="1" oboz="DD10" name="24LC08" comment="" underline="False" type="None" />
+    <peline num="1" oboz="DD11" name="SD1210" comment="" underline="False" type="None" />
+    <peline num="1" oboz="DD12" name="74LCX125" comment="" underline="False" type="None" />
+    <peline num="1" oboz="DD13" name="SM0230" comment="" underline="False" type="None" />
+    <peline num="2" oboz="DD14, DD15" name="SN75LVDS83" comment="" underline="False" type="None" />
     <peline num="1" oboz="DD16" name="24LC16" comment="" underline="False" type="None" />
     <peline num="" oboz="" name="" comment="" underline="False" type="None" />
-    <peline num="" oboz="" name="Микросхемы" comment="" underline="False" type="ElementGroup" />
-    <peline num="24" oboz="L1-L24" name="Катушка индуктивности Inductor" comment="" underline="False" type="None" />
+    <peline num="27" oboz="L1-L27" name="Катушка индуктивности Inductor" comment="" underline="False" type="None" />
     <peline num="" oboz="" name="" comment="" underline="False" type="None" />
     <peline num="239" oboz="R1-R239" name="Резистор Resistor" comment="" underline="False" type="None" />
     <peline num="" oboz="" name="" comment="" underline="False" type="None" />
@@ -640,29 +655,42 @@
     <peline num="1" oboz="VD6" name="BAV99" comment="" underline="False" type="None" />
     <peline num="1" oboz="VD7" name="DiodeSchottky" comment="" underline="False" type="None" />
     <peline num="1" oboz="VD8" name="BAV99" comment="" underline="False" type="None" />
+    <peline num="" oboz="" name="Диоды" comment="" underline="False" type="ElementGroup" />
     <peline num="2" oboz="VD9, VD10" name="Diode" comment="" underline="False" type="None" />
-    <peline num="4" oboz="VD11-VD14" name="DiodeSchottky" comment="" underline="False" type="None" />
+    <peline num="" oboz="" name="" comment="" underline="False" type="None" />
+    <peline num="" oboz="" name="" comment="" underline="False" type="ElementGroup" />
+    <peline num="1" oboz="RX_D3" name="InputArrow" comment="" underline="False" type="None" />
+    <peline num="1" oboz="RX_D2" name="InputArrow" comment="" underline="False" type="None" />
+    <peline num="1" oboz="RX_CLK+1" name="InputArrow" comment="" underline="False" type="None" />
+    <peline num="" oboz="" name="" comment="" underline="False" type="None" />
+    <peline num="2" oboz="VD11, VD12" name="Диод DiodeSchottky" comment="" underline="False" type="None" />
+    <peline num="1" oboz="RX_D1" name="InputArrow" comment="" underline="False" type="None" />
+    <peline num="" oboz="" name="" comment="" underline="False" type="None" />
+    <peline num="" oboz="" name="Диоды" comment="" underline="False" type="ElementGroup" />
+    <peline num="2" oboz="VD13, VD14" name="DiodeSchottky" comment="" underline="False" type="None" />
     <peline num="3" oboz="VD15-VD17" name="Diode" comment="" underline="False" type="None" />
     <peline num="" oboz="" name="" comment="" underline="False" type="None" />
     <peline num="" oboz="" name="Транзисторы" comment="" underline="False" type="ElementGroup" />
-    <peline num="1" oboz="VT1" name="MMBT3904L" comment="" underline="False" type="None" />
-    <peline num="1" oboz="VT2" name="2N3906" comment="" underline="False" type="None" />
-    <peline num="1" oboz="VT3" name="MMBT3904L" comment="" underline="False" type="None" />
-    <peline num="1" oboz="VT4" name="2N3906" comment="" underline="False" type="None" />
+    <peline num="2" oboz="VT1, VT2" name="MMBT3904L" comment="" underline="False" type="None" />
+    <peline num="2" oboz="VT3, VT4" name="2N3906" comment="" underline="False" type="None" />
+    <peline num="1" oboz="RX_D6" name="InputArrow" comment="" underline="False" type="None" />
     <peline num="" oboz="" name="" comment="" underline="False" type="None" />
     <peline num="" oboz="" name="Соединения контактные" comment="" underline="False" type="ElementGroup" />
     <peline num="1" oboz="X1" name="VGA_connector" comment="" underline="False" type="None" />
     <peline num="1" oboz="X2" name="FI-SE30P-HF" comment="" underline="False" type="None" />
+    <peline num="1" oboz="RX_CLK-1" name="InputArrow" comment="" underline="False" type="None" />
     <peline num="" oboz="" name="" comment="" underline="False" type="None" />
     <peline num="1" oboz="ZQ1" name="Фильтр кварцевый Crystal" comment="" underline="False" type="None" />
+    <peline num="" oboz="" name="" comment="" underline="False" type="None" />
+    <peline num="2" oboz="RX_D4, RX_D5" name="InputArrow" comment="" underline="False" type="None" />
   </pelines>
   <vplines>
     <vpline num="" oboz="" name="" comment="" underline="False" type="ElementGroup" merge="False" vhodit="" post="" />
     <vpline num="8" oboz="" name="InputArrow" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
     <vpline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
     <vpline num="" oboz="" name="Конденсаторы" comment="" underline="False" type="ElementGroup" merge="False" vhodit="" post="" />
-    <vpline num="157" oboz="" name="Capacitor" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
-    <vpline num="15" oboz="" name="TuningCapacitor" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
+    <vpline num="177" oboz="" name="Capacitor" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
+    <vpline num="19" oboz="" name="TuningCapacitor" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
     <vpline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
     <vpline num="" oboz="" name="Микросхемы" comment="" underline="False" type="ElementGroup" merge="False" vhodit="" post="" />
     <vpline num="1" oboz="" name="24C02" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
@@ -683,7 +711,7 @@
     <vpline num="2" oboz="" name="SN75LVDS83" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
     <vpline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
     <vpline num="" oboz="" name="Катушки индуктивности" comment="" underline="False" type="ElementGroup" merge="False" vhodit="" post="" />
-    <vpline num="24" oboz="" name="Inductor" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
+    <vpline num="27" oboz="" name="Inductor" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
     <vpline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
     <vpline num="" oboz="" name="Резисторы" comment="" underline="False" type="ElementGroup" merge="False" vhodit="" post="" />
     <vpline num="239" oboz="" name="Resistor" comment="" underline="False" type="None" merge="False" vhodit="" post="" />
@@ -707,10 +735,9 @@
   <speclines>
     <specline num="" oboz="" name="Документация" comment="" underline="True" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="" oboz="PCB_assembly_drawing" name="Сборочный чертеж" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="А2" pos="" posinelement="0" />
+    <specline num="" oboz="PCB_with_drawing_try2" name="Сборочный чертеж" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="" oboz="" name="Схема электрическая" comment="*)А4, А3," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="*)" pos="" posinelement="0" />
-    <specline num="" oboz="" name="" comment="А2" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
+    <specline num="" oboz="" name="Схема электрическая" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="Перечень элементов" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="A4" pos="" posinelement="0" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
@@ -719,51 +746,54 @@
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="Детали" comment="" underline="True" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="1" oboz="ГУИР.230719" name="Плата печатная" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="1" posinelement="0" />
+    <specline num="1" oboz="ГУИР.758717.001" name="Плата печатная" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="А1" pos="1" posinelement="0" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="Прочие изделия" comment="" underline="True" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="8" oboz="" name="InputArrow" comment="RX_D0-, " underline="False" type="None" merge="False" needtu="True" GroupLine1="" GroupLine2="" format="" pos="3" posinelement="1" />
-    <specline num="" oboz="" name="" comment="RX_CLK-, RX_D1+," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
-    <specline num="" oboz="" name="" comment="RX_CLK+, RX_D1-," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="3" />
-    <specline num="" oboz="" name="" comment="RX_D0+, RX_D2-," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="4" />
-    <specline num="" oboz="" name="" comment="RX_D2+" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="5" />
+    <specline num="8" oboz="" name="InputArrow" comment="RX_D2, " underline="False" type="None" merge="False" needtu="True" GroupLine1="" GroupLine2="" format="" pos="3" posinelement="1" />
+    <specline num="" oboz="" name="" comment="RX_CLK-1," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
+    <specline num="" oboz="" name="" comment="RX_D3, " underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="3" />
+    <specline num="" oboz="" name="" comment="RX_CLK+1," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="4" />
+    <specline num="" oboz="" name="" comment="RX_D4, RX_D1," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="5" />
+    <specline num="" oboz="" name="" comment="RX_D6, RX_D5" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="6" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="Конденсаторы" comment="" underline="False" type="FunctionalGroup" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="157" oboz="" name="Capacitor" comment="C1-C5, " underline="False" type="None" merge="False" needtu="False" GroupLine1="Конденсаторы" GroupLine2="" format="" pos="5" posinelement="1" />
-    <specline num="" oboz="" name="" comment="C7-C13, C15-C34," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
-    <specline num="" oboz="" name="" comment="C36-C40, C45-C52," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="3" />
-    <specline num="" oboz="" name="" comment="C54-C57, C59-C61," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="4" />
-    <specline num="" oboz="" name="" comment="C62-C64, " underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="5" />
-    <specline num="" oboz="" name="" comment="C66-C128," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="6" />
-    <specline num="" oboz="" name="" comment="C129-C134," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="7" />
-    <specline num="" oboz="" name="" comment="C139-C158," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="8" />
-    <specline num="" oboz="" name="" comment="C159-C163," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="9" />
-    <specline num="" oboz="" name="" comment="C165-C172" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="10" />
+    <specline num="177" oboz="" name="Capacitor" comment="C1-C6, " underline="False" type="None" merge="False" needtu="False" GroupLine1="Конденсаторы" GroupLine2="" format="" pos="5" posinelement="1" />
+    <specline num="" oboz="" name="" comment="C8-C14, C16-C35," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
+    <specline num="" oboz="" name="" comment="C37-C40, C45-C53," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="3" />
+    <specline num="" oboz="" name="" comment="C55-C62, C64, C65," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="4" />
+    <specline num="" oboz="" name="" comment="C67, C68, C72-C91," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="5" />
+    <specline num="" oboz="" name="" comment="C92-C94, " underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="6" />
+    <specline num="" oboz="" name="" comment="C96-C158," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="7" />
+    <specline num="" oboz="" name="" comment="C159, " underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="8" />
+    <specline num="" oboz="" name="" comment="C161-C164," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="9" />
+    <specline num="" oboz="" name="" comment="C166, " underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="10" />
+    <specline num="" oboz="" name="" comment="C170-C196" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="11" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="15" oboz="" name="TuningCapacitor" comment="C6, " underline="False" type="None" merge="False" needtu="False" GroupLine1="Конденсаторы" GroupLine2="" format="" pos="7" posinelement="1" />
-    <specline num="" oboz="" name="" comment="C14, C35," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
+    <specline num="19" oboz="" name="TuningCapacitor" comment="C7, " underline="False" type="None" merge="False" needtu="False" GroupLine1="Конденсаторы" GroupLine2="" format="" pos="7" posinelement="1" />
+    <specline num="" oboz="" name="" comment="C15, C36," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
     <specline num="" oboz="" name="" comment="C41, C42," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="3" />
-    <specline num="" oboz="" name="" comment="C43, C44, C53," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="4" />
-    <specline num="" oboz="" name="" comment="C58, C65," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="5" />
-    <specline num="" oboz="" name="" comment="C135-C138," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="6" />
-    <specline num="" oboz="" name="" comment="C164" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="7" />
+    <specline num="" oboz="" name="" comment="C43, C44, C54," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="4" />
+    <specline num="" oboz="" name="" comment="C63, C66," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="5" />
+    <specline num="" oboz="" name="" comment="C69-C71, C95," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="6" />
+    <specline num="" oboz="" name="" comment="C160, C165," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="7" />
+    <specline num="" oboz="" name="" comment="C167-C169" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="8" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="Микросхемы" comment="" underline="False" type="FunctionalGroup" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="1" oboz="" name="24C02" comment="DD5" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="9" posinelement="1" />
+    <specline num="1" oboz="" name="24C02" comment="DD6" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="9" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="1" oboz="" name="24C21" comment="DD3" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="11" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="1" oboz="" name="24LC08" comment="DD7" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="13" posinelement="1" />
-    <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
+    <specline num="1" oboz="" name="24LC08" comment="DD10" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="13" posinelement="1" />
     <specline num="1" oboz="" name="24LC16" comment="DD16" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="15" posinelement="1" />
-    <specline num="1" oboz="" name="74AHC1G14-TA" comment="DD9" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="17" posinelement="1" />
     <specline num="" oboz="" name="Микросхемы" comment="" underline="False" type="FunctionalGroup" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="1" oboz="" name="74LCX125" comment="DD14" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="19" posinelement="1" />
+    <specline num="1" oboz="" name="74AHC1G14-TA" comment="DD5" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="17" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="1" oboz="" name="74LV4053" comment="DD10" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="21" posinelement="1" />
+    <specline num="1" oboz="" name="74LCX125" comment="DD12" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="19" posinelement="1" />
+    <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
+    <specline num="1" oboz="" name="74LV4053" comment="DD9" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="21" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="1" oboz="" name="74LVX14" comment="DD2" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="23" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
@@ -772,29 +802,25 @@
     <specline num="2" oboz="" name="AIC1732" comment="DD1, " underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="27" posinelement="1" />
     <specline num="" oboz="" name="" comment="DD4" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="1" oboz="" name="AV9173-01" comment="DD11" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="29" posinelement="1" />
+    <specline num="1" oboz="" name="AV9173-01" comment="DD7" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="29" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="1" oboz="" name="SD1210" comment="DD8" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="31" posinelement="1" />
+    <specline num="1" oboz="" name="SD1210" comment="DD11" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="31" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="1" oboz="" name="SIL151" comment="DD6" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="33" posinelement="1" />
+    <specline num="1" oboz="" name="SIL151" comment="DD8" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="33" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="1" oboz="" name="SM0230" comment="DD15" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="35" posinelement="1" />
+    <specline num="1" oboz="" name="SM0230" comment="DD13" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="35" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="2" oboz="" name="SN75LVDS83" comment="DD12, DD13" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="37" posinelement="1" />
+    <specline num="2" oboz="" name="SN75LVDS83" comment="DD14, DD15" underline="False" type="None" merge="False" needtu="False" GroupLine1="Микросхемы" GroupLine2="" format="" pos="37" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="24" oboz="" name="Катушка индуктивности Inductor" comment="L1-L12, " underline="False" type="None" merge="False" needtu="True" GroupLine1="Катушки индуктивности" GroupLine2="" format="" pos="39" posinelement="1" />
-    <specline num="" oboz="" name="" comment="L13-L18, L19," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
-    <specline num="" oboz="" name="" comment="L20, L21-L23," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="3" />
-    <specline num="" oboz="" name="" comment="L24" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="4" />
-    <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
+    <specline num="27" oboz="" name="Катушка индуктивности Inductor" comment="L1-L12, " underline="False" type="None" merge="False" needtu="True" GroupLine1="Катушки индуктивности" GroupLine2="" format="" pos="39" posinelement="1" />
+    <specline num="" oboz="" name="" comment="L13-L22, L23," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
+    <specline num="" oboz="" name="" comment="L24-L27" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="3" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="239" oboz="" name="Резистор Resistor" comment="R1-R48, " underline="False" type="None" merge="False" needtu="True" GroupLine1="Резисторы" GroupLine2="" format="" pos="41" posinelement="1" />
-    <specline num="" oboz="" name="" comment="R49-R107," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
-    <specline num="" oboz="" name="" comment="R108-R169," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="3" />
-    <specline num="" oboz="" name="" comment="R170-R176," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="4" />
-    <specline num="" oboz="" name="" comment="R177-R180," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="5" />
-    <specline num="" oboz="" name="" comment="R181-R239" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="6" />
+    <specline num="" oboz="" name="" comment="R49-R114," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
+    <specline num="" oboz="" name="" comment="R115-R176," underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="3" />
+    <specline num="" oboz="" name="" comment="R177-R239" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="4" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="Диоды" comment="" underline="False" type="FunctionalGroup" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="3" oboz="" name="BAV99" comment="VD3, " underline="False" type="None" merge="False" needtu="False" GroupLine1="Диоды" GroupLine2="" format="" pos="43" posinelement="1" />
@@ -810,19 +836,16 @@
     <specline num="" oboz="" name="" comment="VD12-VD14" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="4" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="Транзисторы" comment="" underline="False" type="FunctionalGroup" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="2" oboz="" name="2N3906" comment="VT2, " underline="False" type="None" merge="False" needtu="False" GroupLine1="Транзисторы" GroupLine2="" format="" pos="49" posinelement="1" />
-    <specline num="" oboz="" name="" comment="VT4" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
+    <specline num="2" oboz="" name="2N3906" comment="VT3, VT4" underline="False" type="None" merge="False" needtu="False" GroupLine1="Транзисторы" GroupLine2="" format="" pos="49" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
-    <specline num="2" oboz="" name="MMBT3904L" comment="VT1, " underline="False" type="None" merge="False" needtu="False" GroupLine1="Транзисторы" GroupLine2="" format="" pos="51" posinelement="1" />
-    <specline num="" oboz="" name="" comment="VT3" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="2" />
+    <specline num="2" oboz="" name="MMBT3904L" comment="VT1, VT2" underline="False" type="None" merge="False" needtu="False" GroupLine1="Транзисторы" GroupLine2="" format="" pos="51" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="" oboz="" name="Соединения контактные" comment="" underline="False" type="FunctionalGroup" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="1" oboz="" name="FI-SE30P-HF" comment="X2" underline="False" type="None" merge="False" needtu="False" GroupLine1="Соединения контактные" GroupLine2="" format="" pos="53" posinelement="1" />
-    <specline num="" oboz="" name="Соединения контактные" comment="" underline="False" type="FunctionalGroup" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
+    <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="1" oboz="" name="VGA_connector" comment="X1" underline="False" type="None" merge="False" needtu="False" GroupLine1="Соединения контактные" GroupLine2="" format="" pos="55" posinelement="1" />
     <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
     <specline num="1" oboz="" name="Фильтр кварцевый Crystal" comment="ZQ1" underline="False" type="None" merge="False" needtu="True" GroupLine1="Фильтры кварцевые" GroupLine2="" format="" pos="57" posinelement="1" />
-    <specline num="" oboz="" name="" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" posinelement="0" />
   </speclines>
   <speclinespp />
   <groups>
@@ -833,13 +856,13 @@
   <groupscategory />
   <razdels>
     <razdel name="docs" np="False">
-      <specline num="" oboz="PCB_assembly_drawing" name="Сборочный чертеж" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="А2" pos="" id="lineSB1" posinelement="0" />
-      <specline num="" oboz="" name="Схема электрическая" comment="*)А4, А3, А2" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="*)" pos="" id="lineSch1" posinelement="0" />
+      <specline num="" oboz="PCB_with_drawing_try2" name="Сборочный чертеж" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" id="lineSB1" posinelement="0" />
+      <specline num="" oboz="" name="Схема электрическая" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="" id="lineSch1" posinelement="0" />
       <specline num="" oboz="" name="Перечень элементов" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="A4" pos="" id="linePE1" posinelement="0" />
       <specline num="" oboz="" name="Ведомость покупных  изделий" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="А3" pos="" id="lineVP1" posinelement="0" />
     </razdel>
     <razdel name="detali" np="False">
-      <specline num="1" oboz="ГУИР.230719" name="Плата печатная" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="" pos="1" id="lineBDetail1" posinelement="0" />
+      <specline num="1" oboz="ГУИР.758717.001" name="Плата печатная" comment="" underline="False" type="None" merge="False" needtu="False" GroupLine1="" GroupLine2="" format="А1" pos="1" id="lineBDetail1" posinelement="0" />
     </razdel>
     <razdel name="prochie" np="False" />
   </razdels>
