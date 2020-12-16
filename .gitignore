@@ -2,9 +2,6 @@
 *.PrjPCBStructure
 *.SchDocPreview
 *.PcbDocPreview
-AltiumProject/__Previews/*
-AltiumProject/History/**
-AltiumProject_EN_design/History/**
 *.PrjPcbStructure
 *.Dat
 *.REP 
@@ -15,18 +12,20 @@ AltiumProject_EN_design/History/**
 *.$$$
 
 #useless dirs
-AltiumProject/Outputs
-AltiumProject/Logs
+AltiumProject\Outputs
+AltiumProject\Logs
+AltiumProject\__Previews
 
 #History
-AltiumProject/History
+AltiumProject\History
+AltiumProject_EN_design\History
 
 #Exports, but not manual ones
-exports/*
-!exports/manual
+exports\*
+!exports\manual
 
 #Python stuff
-scripts/__pycache__/
+scripts\__pycache__\
 *.bak
 *.dwl
 *.dwl2
