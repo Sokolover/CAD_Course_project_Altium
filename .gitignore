@@ -3,6 +3,8 @@
 *.SchDocPreview
 *.PcbDocPreview
 AltiumProject/__Previews/*
+AltiumProject/History/**
+AltiumProject_EN_design/History/**
 *.PrjPcbStructure
 *.Dat
 *.REP 
